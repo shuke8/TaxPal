@@ -19,6 +19,8 @@ import honeywellLogo from '../images/animatedLogos/Honeywell_logo.svg'
 import moxaLogo from '../images/animatedLogos/moxa.svg'
 import rollsRoyceLogo from '../images/animatedLogos/Rolls-Royce.svg'
 import siemensAgLogo from '../images/animatedLogos/Siemens_AG_logo.svg'
+import YouTubeEmbed from './vidoe'
+import TestModal from './modalVideo'
 
 export function Hero() {
   return (
@@ -38,11 +40,12 @@ export function Hero() {
         </span>{' '}
         for small businesses.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <TestModal />
+      {/* <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Most bookkeeping software is accurate, but hard to use. We make the
         opposite trade-off, and hope you don’t get audited.
-      </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      </p> */}
+      {/* <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Get 6 months free</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -56,10 +59,10 @@ export function Hero() {
           </svg>
           <span className="ml-3">Watch video</span>
         </Button>
-      </div>
+      </div> */}
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Trusted by these eight companies so far
         </p>
         <ul
           role="list"
