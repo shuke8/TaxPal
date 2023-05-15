@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>ATG Skills</title>
         <meta name="description" content="Boost your skills with ATG skills" />
       </Head>
       <Header />
