@@ -16,10 +16,7 @@ export default function Home() {
     <>
       <Head>
         <title>TaxPal - Accounting made simple for small businesses</title>
-        <meta
-          name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
-        />
+        <meta name="description" content="Boost your skills with ATG skills" />
       </Head>
       <Header />
       <main>
