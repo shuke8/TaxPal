@@ -15,8 +15,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ATG Skills</title>
-        <meta name="description" content="Boost your skills with ATG skills" />
+        <title>Asia Trans Gas Academy</title>
+        <meta
+          name="description"
+          content="Boost your skills with Asia Trans Gas Academy"
+        />
       </Head>
       <Header />
       <main>
