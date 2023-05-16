@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { CheckIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { PlayPauseIcon } from '@heroicons/react'
 import YouTubeEmbed from './vidoe'
-import { Button } from '@/components/Button'
+import { Button } from '../components/Button'
 
 export default function TestModal() {
   const [open, setOpen] = useState(false)
@@ -48,20 +48,24 @@ export default function TestModal() {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="  fixed bottom-0 left-0 right-0 top-0 z-50 scale-50 overflow-hidden rounded-lg  bg-white p-6  shadow-xl transition-all">
-                <div className="relative mt-2 h-full w-full ">
-                  <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
-                    <button
-                      type="button"
-                      className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-                      onClick={() => setOpen(false)}
-                    >
-                      <span className="sr-only">Close</span>
-                      <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                    </button>
-                  </div>
-                  <YouTubeEmbed />
+              <div
+                style={{}}
+                className="  embed-responsive relative bottom-0  left-0 right-0 top-0 z-50 h-full w-2/3 overflow-hidden rounded-lg  bg-white p-80   shadow-xl transition-all"
+              >
+                <YouTubeEmbed />
+
+                {/* <div className="relative mt-2 h-full w-full "> */}
+                <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
+                  <button
+                    type="button"
+                    className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    onClick={() => setOpen(false)}
+                  >
+                    <span className="sr-only">Close</span>
+                    <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                  </button>
                 </div>
+                {/* </div> */}
               </div>
             </Transition.Child>
           </div>
