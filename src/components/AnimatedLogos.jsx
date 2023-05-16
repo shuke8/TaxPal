@@ -12,14 +12,14 @@ const AnimatedLogos = () => {
   return (
     <div className="logos">
       <div className="logos-slide">
-        <Image src={caterpillarLogo} />
-        <Image src={ciscoLogo} />
-        <Image src={dellLogo} />
-        <Image src={geLogo} />
-        <Image src={honeywellLogo} />
-        <Image src={moxaLogo} />
-        <Image src={rollsRoyceLogo} />
-        <Image src={siemensAgLogo} />
+        <Image alt="Catepillar" src={caterpillarLogo} />
+        <Image alt="CIsco" src={ciscoLogo} />
+        <Image alt="Dell" src={dellLogo} />
+        <Image alt="GElogo" src={geLogo} />
+        <Image alt="Honeywell" src={honeywellLogo} />
+        <Image alt="moxa" src={moxaLogo} />
+        <Image alt="rr" src={rollsRoyceLogo} />
+        <Image alt="siemens" src={siemensAgLogo} />
       </div>
       <script
         dangerouslySetInnerHTML={{
